@@ -23,12 +23,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        canvasColor: Color(0xffD0F1EB),
         primarySwatch: Colors.blue,
         fontFamily: 'Poppins',
       ),
-      home:
-          OnBoarding1(), //Home(), //BottomNavBar(), //const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: OnBoarding1(),
     );
   }
 }
